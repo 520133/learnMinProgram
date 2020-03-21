@@ -1,0 +1,14 @@
+<!--pages/home/home.wxml-->
+<text class="title">{{name}}</text>
+<view wx:for="{{students}}" class="title">{{item.name}}:{{item.age}}</view>
+<view>数量:{{counter}}</view>
+<view>项目名称:{{author}}</view>
+<button size="mini" bindtap="handleBtnClick">添加</button>
+<button size="mini" bindtap="deleteClick" style="left:5px">减少</button>
+<button size="mini" 
+  open-type="getUserInfo" 
+  bindgetuserinfo="handleGetUserInfo" 
+  style="left:10px">授权</button>
+
+  <view>--------------</view>
+  <view wx:for="{{list}}" class="content">{{item.title}}</view>

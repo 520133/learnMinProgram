@@ -1,0 +1,8 @@
+/* pages/home/home.wxss */
+.title{
+  color: red;
+}
+.content{
+  color: rgb(146, 143, 143);
+  margin-top: 3px;
+}
